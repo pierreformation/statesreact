@@ -4,7 +4,7 @@ import rates from "../assets/rates";
 import { ArrowDown, ArrowUp } from "../assets/icons";
 import "./Converters.css";
 
-const Converters = () => {
+const Converters2 = () => {
   const [Curr1, setCurr1] = useState("EUR");
   const [Curr2, setCurr2] = useState("USD");
   const [amount, setAmount] = useState(["", ""]);
@@ -13,7 +13,7 @@ const Converters = () => {
 
   return (
     <div className="motherbox">
-      <h1>CURRENCIES CONVERTER</h1>
+      <h1>BONUS : CURRENCIES CONVERTER</h1>
       <input
         type="text"
         className="inputConv"
@@ -68,4 +68,4 @@ const Converters = () => {
   );
 };
 
-export default Converters;
+export default Converters2;
