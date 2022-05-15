@@ -52,9 +52,9 @@ const Selecteurs = () => {
               e.stopPropagation();
               setSelect2(null);
             }}
-            onMouseLeave={(e) => {
-              setSelect2(null);
-            }}
+            // onMouseLeave={(e) => {
+            //   setSelect2(null);
+            // }}
             className="imgselector"
           ></img>
         ) : (
@@ -74,9 +74,9 @@ const Selecteurs = () => {
               setSelect2(null);
             }}
             className="imgselector"
-            onMouseLeave={(e) => {
-              setSelect2(null);
-            }}
+            // onMouseLeave={(e) => {
+            //   setSelect2(null);
+            // }}
           ></img>
         ) : (
           <div
@@ -94,9 +94,9 @@ const Selecteurs = () => {
               e.stopPropagation();
               setSelect2(null);
             }}
-            onMouseLeave={(e) => {
-              setSelect2(null);
-            }}
+            // onMouseLeave={(e) => {
+            //   setSelect2(null);
+            // }}
             className="imgselector"
           ></img>
         ) : (
