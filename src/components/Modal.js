@@ -6,7 +6,7 @@ const Modal = () => {
   return (
     <>
       <div className="modalContainer">
-        <div className="modaltitle">EXERCICE MODALE</div>
+        <div className="modaltitle">EXERICE - LE POP UP (modale)</div>
         {modal && (
           <div className="modale">
             <div>
