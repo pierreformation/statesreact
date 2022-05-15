@@ -8,6 +8,7 @@ import Selecteurs from "./components/Selecteurs";
 import Configurator from "./components/Configurator";
 import Menu from "./components/Menu";
 import Modal from "./components/Modal";
+import Movers from "./components/Movers";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="selecteurs" element={<Selecteurs />} />
         <Route path="configurateur" element={<Configurator />} />
         <Route path="modale" element={<Modal />} />
+        <Route path="movers" element={<Movers />} />
       </Routes>
     </BrowserRouter>
   );
