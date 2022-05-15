@@ -7,6 +7,7 @@ import ConvertersContainer from "./components/ConvertersContainer";
 import Selecteurs from "./components/Selecteurs";
 import Configurator from "./components/Configurator";
 import Menu from "./components/Menu";
+import Modal from "./components/Modal";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="converters" element={<ConvertersContainer />} />
         <Route path="selecteurs" element={<Selecteurs />} />
         <Route path="configurateur" element={<Configurator />} />
+        <Route path="modale" element={<Modal />} />
       </Routes>
     </BrowserRouter>
   );

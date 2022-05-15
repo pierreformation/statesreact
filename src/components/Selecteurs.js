@@ -109,6 +109,13 @@ const Selecteurs = () => {
           ></div>
         )}
       </div>
+      <div className="selectorContainer">Selector 3</div>
+      <div className="selectorContainer">
+        Selector 4
+        <div>
+          <a href="https://fastgood.cheap/">Fast Good Cheap</a>
+        </div>
+      </div>
     </div>
   );
 };
