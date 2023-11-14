@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "./App.css"
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route,Link } from "react-router-dom";
 import Compteurs from "./components/Compteurs";
 import ConvertersContainer from "./components/ConvertersContainer";
 import Selecteurs from "./components/Selecteurs";
@@ -13,9 +14,12 @@ import Movers from "./components/Movers";
 export default function App() {
   return (
     <BrowserRouter>
+      <Link to="/">
+        <div className="myheader">HOME</div>
+      </Link>
       <Routes>
         <Route path="/" element={<Menu />} />
-        <Route path="compteurs" element={<Compteurs />} />
+        <Route path="counters" element={<Compteurs />} />
         <Route path="converters" element={<ConvertersContainer />} />
         <Route path="selecteurs" element={<Selecteurs />} />
         <Route path="configurateur" element={<Configurator />} />
