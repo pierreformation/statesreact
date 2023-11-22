@@ -10,6 +10,7 @@ const Movers = () => {
           setposX(posX + 20);
         }}
       >
+        
         {"<"}
       </button>
       <button
