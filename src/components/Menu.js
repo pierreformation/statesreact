@@ -8,11 +8,11 @@ const Menu = () => {
     </div> 
     <div>
       <Link className="menuEl" to="counters">COMPTEURS</Link>
-      {/* <Link className="menuEl" to="converters">CONVERTISSEURS</Link>
+      {/* <Link className="menuEl" to="converters">CONVERTISSEURS</Link> */}
       <Link className="menuEl" to="selecteurs">SELECTEURS</Link>
-      <Link className="menuEl" to="configurateur">CONFIGURATEUR</Link>
-      <Link className="menuEl" to="modale">MODALE</Link>
-      <Link className="menuEl" to="movers">MOVERS</Link> */}
+      {/* <Link className="menuEl" to="configurateur">CONFIGURATEUR</Link> */}
+      {/* <Link className="menuEl" to="modale">MODALE</Link> */}
+      {/* <Link className="menuEl" to="movers">MOVERS</Link> */}
     </div>
       
   </div>)
