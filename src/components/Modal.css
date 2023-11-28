@@ -29,7 +29,7 @@
 }
 .modale > div {
     border-radius: 10px;
-    background-color: grey;
+    background-color: rgb(229, 197, 138);
     border:solid 2px black;
     display: flex;
     flex-direction: column;
